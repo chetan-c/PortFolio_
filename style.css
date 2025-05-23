@@ -1,0 +1,799 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;    
+}
+
+
+body{
+    background-color: rgb(17, 6, 49);
+}
+nav a{
+    padding: 20px 40px;
+    color:  white;
+    text-decoration: none;
+}
+nav a:hover{
+    scale: 1.3;
+    display: flex;
+}
+nav{
+    position: absolute;
+    left: 55%;
+    display: flex;
+    font-size: 18px; 
+    margin-left: 30px;
+   
+}
+.logo{
+    
+    font-size: 27px;
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    color: white;
+   
+}
+
+.Activity {
+    display: flex;
+  justify-content: end;
+  
+   
+   
+}
+.Activity a{
+    
+    margin: 20px;
+    color:  white;
+    padding: 10px;
+    border-radius: 30px;
+   background-color: #cd23c2;
+    text-decoration: none;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.Activity a:hover{
+    transform: scale(1.3);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgb(242, 81, 242));
+}
+
+.tital {
+  
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 40%;
+    left: 36%;
+}
+.tital h2{
+    font-size: 50px;
+    color: white;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,255,1) 100%);
+ 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text; /* For Firefox */
+  color: transparent;
+   
+}
+.tital h1{
+    font-size: 50px;
+    color: white;
+    text-shadow: 2px 2px 20px rgba(255, 247, 247, 0.5);
+}
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+
+.button{
+    position: absolute;
+    top: 68%;
+    left: 46%;
+    color: white;
+    border-color: white;
+    border: white;
+   
+}
+.button a{
+    color: black;
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 10px;
+    border-color: white;
+    border: white;
+    background-color: rgb(161, 49, 159);
+    border-radius: 10px;
+    transform: 5s transform ease;
+}
+.button :hover{
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,255,1) 100%);
+    text-shadow: 0px 0px 20px rgba(148, 21, 194, 0.5);
+    color: white;
+    scale: 1.5;
+    transition: 0.5s;
+}
+.images{
+    position: absolute;
+    top: 30%;
+    left: 41%;
+    
+    
+}
+
+.hello , img{
+    transform: scale(0.4);
+    opacity: 0;
+    animation: fadeInScale 0.8s ease-out forwards;
+    }
+    @keyframes fadeInScale {
+    100% {
+    opacity: 1;
+    transform: scale(1);
+    }
+    }
+.images img{
+  margin: 2px 10px;
+    
+}
+
+
+.insta
+{
+height: 27px;
+width: 27px;
+box-shadow: 5px 5px 6px rgba(140, 35, 206, 0.5);
+}
+.github{
+    height: 40px;
+width: 40px;
+margin-top: 10px;
+box-shadow: 5px 5px 6px rgba(255, 255, 255, 0.5);
+}
+.yt{
+    height: 29px;
+width: 31px;
+box-shadow: 5px 5px 6px rgba(216, 27, 27, 0.5);
+}
+.link{
+    height: 41px;
+width: 41px;
+box-shadow: 5px 5px 6px rgba(58, 35, 206, 0.5);
+position: absolute;
+bottom: 1%;
+}
+
+
+.about_tital h1{
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    left: 8%;
+    top: 107%;
+    color: white;
+    animation-name: app;
+    animation: app 0.6s linear;
+    animation-timeline:view() ;
+    animation-range:entry 0% cover ;
+}
+.about_tital h2{
+    display: flex;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,255,1) 100%);
+ 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For Firefox */
+    color: transparent;
+    position: absolute;
+    font-size: 56px;
+    left: 20%;
+    color: white;
+    top: 117%;
+    animation-name: app;
+    animation: app 0.6s linear;
+    animation-timeline:view() ;
+    animation-range:entry 0% cover ;
+}
+.about_tital h3{
+    display: flex;
+    position: absolute;
+    color: white;
+    font-size: 25px;
+    left: 8%;
+    top: 130%;
+    animation-name: app;
+    animation: app 0.6s linear;
+    animation-timeline:view() ;
+    animation-range:entry 0% cover ;
+}
+.myimage img{
+height: 350px;
+width: 340px;
+border-radius: 50%;
+box-shadow: 5px 10px 23px rgba(235, 13, 255, 0.5);
+filter: brightness(100%);
+position: absolute;
+    color: white;
+    right: 5%;
+    top: 80%;
+
+    animation-name: app;
+    animation: appear 0.6s linear;
+    animation-timeline:view() ;
+    animation-range:entry 0% cover ;
+}
+
+@keyframes appear{
+    0% {
+        opacity: 1;
+        transform: scale(0.3);
+        }
+        50% {
+            opacity: 1;
+        transform: scale(0.9);
+        }
+        70% {
+        opacity: 1;
+        transform: scale(0.6);
+        }
+    }
+.paragrap{
+    position: absolute;
+    color: white;
+    left: 8%;
+    top: 138%;
+    animation-name: app;
+    animation: app 0.6s linear;
+    animation-timeline:view() ;
+    animation-range:entry 0% cover ;
+}
+@keyframes app{
+    0% {
+        opacity: 0;
+        left: 0%;
+        
+        }
+        30% {
+            opacity: 1;
+            left: 10%;
+        
+            }
+        50% {
+        opacity: 1;
+        
+    
+        }
+        }
+  
+.AboutMe h1{
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,255,1) 100%);
+ 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For Firefox */
+    color: transparent;
+    display: flex;
+    position: absolute;
+    font-size: 40px;
+    left: 45%;
+    top: 266%;
+    color: white;
+    animation-name: app;
+    animation: app 0.6s linear;
+    animation-timeline:view() ;
+    animation-range:entry 0% cover ;
+}
+.AboutMe p{
+    position: absolute;
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+    left: 5%;
+    top: 276%;
+    animation-name: app;
+    animation: app 0.6s linear;
+    animation-timeline:view() ;
+    animation-range:entry 0% cover ;
+
+}
+.AboutMe h2{
+    display: flex;
+    position: absolute;
+    font-size: 20px;
+    left: 5%;
+    top: 290%;
+    color: white;
+    animation-name: app;
+    animation: app 0.6s linear;
+    animation-timeline:view() ;
+    animation-range:entry 0% cover ;
+}
+.AboutMe h3{
+    display: flex;
+    position: absolute;
+    font-size: 30px;
+    left: 40%;
+    top: 315%;
+    color: white;
+    
+}
+.AboutMe a{
+    display: flex;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(192, 51, 187);
+    position: absolute;
+    font-size: 20px;
+    left: 47%;
+    top: 330%;
+    color: white;
+    transition: transform 0.5s ease;
+}
+.AboutMe a:hover{
+    transform: scale(1.2);
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,255,1) 100%);
+    box-shadow: 5px 5px 20px rgb(255, 255, 255) ;
+    display: flex;
+}
+.AboutMe_boder{
+    border: 2px solid white;   /* white border */
+    padding: 125px 610px;             /* space inside the border */
+    margin: 20px;              /* space outside the border */
+    border-radius: 10px;       /* optional: rounded corners */
+    color: white; 
+    position: absolute;
+    top: 260%;   
+}
+.social_media ,.links{
+    position: absolute;
+    top: 355%;
+    left: 25%;
+    display: flex;
+    gap: 140px;
+   
+}
+.headLine{
+    color: white;
+    position: absolute;
+    top: 343%;
+    left: 42%;
+    display: flex;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For Firefox */
+    color: transparent;
+    
+}
+
+.inst
+{
+height: 47px;
+width: 47px;
+box-shadow: 5px 5px 6px rgba(140, 35, 206, 0.5);
+}
+.githu{
+    height: 60px;
+width: 60px;
+margin-top: 10px;
+box-shadow: 5px 5px 6px rgba(255, 255, 255, 0.5);
+}
+.ytc{
+    height: 49px;
+width: 51px;
+box-shadow: 5px 5px 6px rgba(216, 27, 27, 0.5);
+}
+.lin{
+    height: 51px;
+width: 51px;
+box-shadow: 5px 5px 6px rgba(58, 35, 206, 0.5);
+position: absolute;
+bottom: 1%;
+}
+.robot{
+   position: absolute;
+   top: 145%;
+   
+   spline-viewer::part(logo) {
+    display: none;
+   }
+
+}
+.robot_text h3{
+    position: absolute;
+    top: 190%;
+    left: 5%;
+    font-size: 39px;
+    color: white;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For Firefox */
+    color: transparent;
+
+}
+.robot_text h2{
+    position: absolute;
+    top: 200%;
+    left: 5%;
+    font-size: 35px;
+    color: white;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For Firefox */
+    color: transparent;
+
+}
+
+.certificates-container{
+    position: absolute;
+    top: 390%;
+    left: 12%;
+}
+.boder1{
+    border: 2px solid white;
+    padding: 200px 610px ;
+    border-radius: 10PX;
+    margin-left: 15px;
+    position: absolute;
+    top: 390%;
+}
+.Certificates h1{
+position: absolute;
+color: rgb(255, 255, 255);
+top: 380%;
+left: 40%;
+ background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For Firefox */
+    color: transparent;
+}
+
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.certificates-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.certificate-card {
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.certificate-card:hover {
+    transform: translateY(-5px);
+}
+
+.certificate-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.certificate-info {
+    padding: 15px;
+}
+
+.certificate-info h3 {
+    margin-top: 0;
+    color: #2c3e50;
+}
+
+.certificate-info p {
+    margin: 5px 0;
+    color: #7f8c8d;
+    font-size: 14px;
+}
+
+/* Modal styles */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    overflow: auto;
+}
+
+.modal-content {
+    display: flex;
+    margin: 50px auto;
+    max-width: 90%;
+    max-height: 80vh;
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.modal-content img {
+    width: 60%;
+    object-fit: contain;
+}
+
+.modal-info {
+    width: 40%;
+    padding: 20px;
+    overflow-y: auto;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: white;
+    font-size: 35px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.another_text{
+    font-size: 30px;
+    position: absolute;
+    top: 310%;
+    left: 38%;
+    font-weight: 400;
+    margin: 10px 0;
+    
+     background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(255,0,255,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* For Firefox */
+    color: transparent;
+
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    /* General adjustments */
+    body {
+        overflow-x: hidden;
+    }
+    .headLine h1{
+        font-size: 23px;
+    }
+
+
+    .another_text{
+        position: absolute;
+        top: 195%;
+        font-size: 23px;
+        left: 5%;
+        
+    }
+    /* Navigation and logo */
+    .logo {
+        position: absolute;
+        font-size: 20px;
+        top: 1%;
+        left: 5%;
+    }
+    
+    .Activity {
+        margin-right: 20px;
+     
+        left: 17%;
+       
+    }
+    #projects a{
+        position: absolute;
+        top: 750%;
+    }
+    .Activity a {
+        margin: 20px 10px;
+        left: 20%;
+        padding: 10px 15px;
+        font-size: 14px;
+    }
+    
+    /* Main title section */
+    .tital {
+        top: 15%;
+        left: 6%;
+        right: 10%;
+        text-align: center;
+    }
+    
+    .tital h1, .tital h2 {
+        font-size: 30px;
+    }
+    
+    .images {
+        top: 35%;
+        left: -20%;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        display: none;
+    }
+    
+    /* About section */
+    .about_container {
+        position: relative;
+        padding-top: 110px;
+    }
+    
+    .about_tital h1 {
+        font-size: 24px;
+        left: 5%;
+        top: 100%;
+    }
+    
+    .about_tital h2 {
+        font-size: 32px;
+        left: 5%;
+        top: 110%;
+    }
+    
+    .about_tital h3 {
+        font-size: 18px;
+        left: 5%;
+        top: 125%;
+    }
+    
+    .paragrap {
+        left: 5%;
+        top: 135%;
+        right: 5%;
+        text-align: left;
+        font-size: 14px;
+    }
+    
+    .myimage img {
+        height: 250px;
+        width: 250px;
+        position: relative;
+        top: 45px;
+        left: 30%;
+        transform: translateX(-60%);
+        margin-bottom: 80px;
+    }
+    
+    /* Robot section */
+    .robot {
+       display: none;
+
+    }
+    .robot_text h3{
+        position: absolute;
+        top: 160%;
+        font-size: 30px;
+
+    }
+    .robot_text h2{
+        position: absolute;
+        top: 170%;
+        font-size: 30px;
+
+    }
+  
+    
+    /* About Me section */
+    .AboutMe {
+        position: relative;
+        padding-top: 90px;
+    }
+    
+    .AboutMe h1 {
+        font-size: 28px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 205%;
+    }
+    
+    .AboutMe p {
+        font-size: 14px;
+        left: 5%;
+        top: 240%;
+        right: 5%;
+    }
+    
+    .AboutMe h2 {
+        font-size: 16px;
+        left: 5%;
+        top: 330%;
+        right: 5%;
+    }
+    
+    .AboutMe h3 {
+        font-size: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        top: 490%;
+        text-align: center;
+    }
+    
+    .AboutMe a {
+        left: 50%;
+        transform: translateX(-50%);
+        top: 230%;
+    }
+    
+    .AboutMe_boder {
+        display: none;
+    }
+   .project {
+    position: relative;
+    padding: 50px;
+   }
+    
+    /* Social media section */
+    .headLine {
+        font-size: 40px;
+        left: 30%;
+        transform: translateX(-50%);
+        top: 220%;
+    }
+    
+    .social_media, .links {
+        top: 235%;
+        left: 0;
+        right: 0;
+        justify-content: center;
+        gap: 50px;
+        flex-wrap: wrap;
+    }
+    
+    .inst, .githu, .ytc, .lin {
+        height: 35px;
+        width: 35px;
+    }
+    
+    /* Certificates section */
+    .Certificates h1 {
+        font-size: 40px;
+        left: 35%;
+        transform: translateX(-50%);
+        top: 260%;
+    }
+    
+    .certificates-container {
+        top: 285%;
+        left: 5%;
+        right: 5%;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .certificate-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    
+    /* Modal adjustments */
+    .modal-content {
+        flex-direction: column;
+    }
+    
+    .modal-content img {
+        width: 100%;
+    }
+    
+    .modal-info {
+        width: 100%;
+    }
+}

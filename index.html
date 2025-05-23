@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Port-Folio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="Activity">
+  <a href="activity.html">Activity</a>
+
+<!-- Hidden image -->
+<a href="ChetanKamble's_resume.pdf" id="resume" class="resume"  onclick="resume()">Resume</a>
+
+
+</div>
+    <div class="logo hello"> <b> FolioCK</b></div>
+    <div class="tital hello">
+        <h1>Welcome To My </h1>
+        <h2>PortFolio <span>Website</span> </h2>
+    </div>
+    <div class="button">
+    
+</div>
+
+<div class="images">
+<a  href="https://www.instagram.com/ck_chetan_a/?__pwa=1"> <img class="insta" src="insta.png" alt=""></a>
+<a href="https://github.com/chetan-c"> <img class="github" src="github1.png" alt=""></a>
+<a href="https://www.youtube.com/channel/UCoRVwNSOJ7zn7HDMyfZhDxA"> <img class="yt" src="yt.png" alt=""></a>
+<a href="https://www.linkedin.com/in/chetan-kamble01"> <img class="link" src="linkdin.png" alt=""></a>
+</div>
+
+
+
+<div class="about_container ">
+    <div id="home">
+    <div class="about_tital "> <h1> Hello, It's Me</h1> 
+    <h2>Chetan-ck </h2> 
+<h3>A FrontEnd Developer</h3></div>
+<p class="paragrap"> BCA student with a strong foundation in coding, web development, <br>
+     and technology. Adept at problem-solving and collaborating on innovative solutions. </p>
+</div>
+
+<div class="robot_text">
+    <h3>Let's dive Into My </h3>
+    <h2>Technical skills</h2>
+</div>
+
+<spline-viewer class="robot" url="https://prod.spline.design/ERtoBMhVIByCMkyP/scene.splinecode"></spline-viewer>
+<div class="myimage block">
+<img src="my photo.jpeg" alt="">
+</div>
+</div>
+<div class="AboutMe" id="about">
+    
+    <h1>About Me</h1>
+    <p> Enthusiastic and detail-oriented BCA student with a strong foundation in coding, web development,
+        and technology. Adept at problem-solving and  collaborating on innovative solutions. Seeking an opportunity
+        to apply my skills in a dynamic tech environment. i have hands-on experience in web development
+        on several impactful <br>
+         projects .
+    </p>
+    <h2>Education[2023-2026] <br>
+        Bachelor of Computer Applications (BCA) <br>
+        KLE Society’s SSMS BCA Athani College</h2>
+        <div id="projects" class="project" >
+           
+            <a  href="https://github.com/chetan-c">Projects</a>
+          </div>
+        <div class="AboutMe_boder"></div>
+    </div>
+</div>
+
+<div class="headLine ">
+    <h1 class="block" >My Social Media</h1>
+</div>
+<div class="social_media block">
+    <div class="links">
+    <a  href="https://www.instagram.com/ck_chetan_a/?__pwa=1"> <img class="inst" src="insta.png" alt=""></a>
+    <a href="https://github.com/chetan-c"> <img class="githu" src="github1.png" alt=""></a>
+    <a href="https://www.youtube.com/channel/UCoRVwNSOJ7zn7HDMyfZhDxA"> <img class="ytc" src="yt.png" alt=""></a>
+    <a href="https://www.linkedin.com/in/chetan-kamble01"> <img class="lin" src="linkdin.png" alt=""></a>
+</div>
+
+
+
+</div>
+ <div class="another_text block">
+    <h3>Explore My Projects</h3>
+ </div>
+
+<script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.85/build/spline-viewer.js"></script>
+
+<div class="Certificates">
+        <h1> <b> Explore My Certificates </b></h1>
+      </div>
+      
+      <div class="certificates-container">
+
+      <!-- Certificate 1 -->
+<div class="certificate-card" onclick="openCertificate('javacertificate.png', 'Java Certificate Course', 'January 2024', 'Code Ninja')">
+    <img src="javacertificate.png" alt="Certificate 1" id="Certificate1" >
+    <div class="certificate-info">
+        <h3>Java Certificate Course</h3>
+        <p>Issued: January 2024</p>
+        <p>Organization: Code Ninja</p>
+    </div>
+</div>
+
+<!-- Certificate 2 -->
+<div class="certificate-card" onclick="openCertificate('hackthon.jpeg', 'Hackathon Certificate', 'March 2024', 'Tech Belagavi KLE Institute')">
+    <img src="hackthon.jpeg" alt="Certificate 2" id="Certificate2" >
+    <div class="certificate-info">
+        <h3>Hackathon Certificate</h3>
+        <p>Issued: March 2024</p>
+        <p>Organization: Tech Belagavi KLE Institute</p>
+    </div>
+</div>
+
+<!-- Certificate 3 -->
+<div class="certificate-card" onclick="openCertificate('fundaments of Ai.jpeg', 'AI Certificate', 'May 2024', 'Alison')">
+    <img src="fundaments of Ai.jpeg" alt="Certificate 3" id="Certificate3" >
+    <div class="certificate-info">
+        <h3>AI Certificate</h3>
+        <p>Issued: May 2024</p>
+        <p>Organization: Alison</p>
+    </div>
+</div>
+
+
+<!-- Fullscreen Modal -->
+<div id="certificateModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        <img id="modalImage" src="" alt="Certificate">
+        <div id="modalInfo" class="modal-info">
+            <!-- Content will be filled by JavaScript -->
+        </div>
+    </div>
+</div>
+
+<script src="script.js">
+
+</script>
+</body>
+</html>
