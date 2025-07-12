@@ -92,120 +92,131 @@
 
 <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.85/build/spline-viewer.js"></script>
 
-<section class="certificates-section">
-    <h1 class="certificates-title">Explore My Certificates</h1>
-
-    <div class="certificates-container">
-      <!-- Certificate Cards -->
-      <div class="certificate-card" onclick="openCertificate('javacertificate.png', 'Java Certificate Course', 'January 2024', 'Code Ninja')">
-        <img src="javacertificate.png" alt="Java Certificate" />
-        <div class="certificate-info">
-          <h3>Java Certificate Course</h3>
-          <p>Issued: January 2024</p>
-          <p>Organization: Code Ninja</p>
-        </div>
+<div class="Certificates">
+        <h1> <b> Explore My Certificates </b></h1>
       </div>
+      
+      <div class="certificates-container">
 
-      <div class="certificate-card" onclick="openCertificate('fundaments of Ai.jpeg', 'AI Certificate', 'May 2024', 'Alison')">
-        <img src="fundaments of Ai.jpeg" alt="AI Certificate" />
-        <div class="certificate-info">
-          <h3>AI Certificate</h3>
-          <p>Issued: May 2024</p>
-          <p>Organization: Alison</p>
-        </div>
-      </div>
+      <!-- Certificate 1 -->
 
-      <div class="certificate-card" onclick="openCertificate('dataanalytics.png', 'Data Analytics Certificate', 'March 2024', 'OneRoadMap')">
-        <img src="dataanalytics.png" alt="Data Analytics" />
-        <div class="certificate-info">
-          <h3>Data Analytics Certificate</h3>
-          <p>Issued: March 2024</p>
-          <p>Organization: OneRoadMap</p>
-        </div>
-      </div>
-
-      <div class="certificate-card" onclick="openCertificate('Generative Ai batch by google.png', 'Generative AI Batch', 'March 2024', 'Google')">
-        <img src="Generative Ai batch by google.png" alt="Generative AI" />
-        <div class="certificate-info">
-          <h3>Generative AI Batch by Google</h3>
-          <p>Issued: March 2024</p>
-          <p>Organization: Google</p>
-        </div>
-      </div>
-
-      <div class="certificate-card" onclick="openCertificate('CyberJobSimulation.png', 'Cyber Job Simulation', 'March 2025', 'Deloitte')">
-        <img src="CyberJobSimulation.png" alt="Cyber Job Simulation" />
-        <div class="certificate-info">
-          <h3>Cyber Job Simulation Certificate</h3>
-          <p>Issued: March 2025</p>
-          <p>Organization: Deloitte</p>
-        </div>
-      </div>
-
-      <div class="certificate-card" onclick="openCertificate('MERN_Stack.png', 'MERN Stack Fundamentals', 'June 2025', 'Great Learning')">
-        <img src="MERN_Stack.png" alt="MERN Stack" />
-        <div class="certificate-info">
-          <h3>MERN Stack Fundamentals Course</h3>
-          <p>Issued: June 2025</p>
-          <p>Organization: Great Learning</p>
-        </div>
-      </div>
-
-      <div class="certificate-card" onclick="openCertificate('google ai certificate.png', 'Google Intro to Gen AI', 'March 2025', 'Google, SimpliLearn')">
-        <img src="google ai certificate.png" alt="Google Gen AI" />
-        <div class="certificate-info">
-          <h3>Google Intro to Gen AI Certificate</h3>
-          <p>Issued: March 2025</p>
-          <p>Organization: Google, SimpliLearn</p>
-        </div>
-      </div>
-
-      <div class="certificate-card" onclick="openCertificate('job simulation.png', 'Solution Architecture Job Simulation', 'March 2025', 'AWS, Forage')">
-        <img src="job simulation.png" alt="AWS Solution Architecture" />
-        <div class="certificate-info">
-          <h3>Solution Architecture Job Simulation</h3>
-          <p>Issued: March 2025</p>
-          <p>Organization: AWS, Forage</p>
-        </div>
-      </div>
-
-      <div class="certificate-card" onclick="openCertificate('UI-UX certificate.jpeg', 'UI-UX Certificate', 'June 2025', 'Alison')">
-        <img src="UI-UX certificate.jpeg" alt="UI-UX" />
-        <div class="certificate-info">
-          <h3>UI-UX Certificate</h3>
-          <p>Issued: June 2025</p>
-          <p>Organization: Alison</p>
-        </div>
-      </div>
-
-      <div class="certificate-card" onclick="openCertificate('Frontend Development-Certificate.png', 'Frontend Development Certificate', 'June 2025', 'OneRoadMap')">
-        <img src="Frontend Development-Certificate.png" alt="Frontend Certificate" />
-        <div class="certificate-info">
-          <h3>Frontend Development Certificate</h3>
-          <p>Issued: June 2025</p>
-          <p>Organization: OneRoadMap</p>
-        </div>
-      </div>
-
-      <div class="certificate-card" onclick="openCertificate('hackthon.jpeg', 'Hackathon Certificate', 'March 2024', 'Tech Belagavi KLE Institute')">
-        <img src="hackthon.jpeg" alt="Hackathon" />
-        <div class="certificate-info">
-          <h3>Hackathon Certificate</h3>
-          <p>Issued: March 2024</p>
-          <p>Organization: Tech Belagavi KLE Institute</p>
-        </div>
-      </div>
+      <!-- Certificate 1 -->
+<div class="certificate-card" onclick="openCertificate('javacertificate.png', 'Java Certificate Course', 'January 2024', 'Code Ninja')">
+    <img src="javacertificate.png" alt="Certificate 1" id="Certificate1" >
+    <div class="certificate-info">
+        <h3>Java Certificate Course</h3>
+        <p>Issued: January 2024</p>
+        <p>Organization: Code Ninja</p>
     </div>
+</div>
 
-    <!-- Modal -->
-    <div id="certificateModal" class="modal">
-      <span class="close" onclick="closeModal()">&times;</span>
-      <div class="modal-content">
-        <img id="modalImage" src="" alt="Certificate" />
-        <div id="modalInfo" class="modal-info"></div>
-      </div>
+<!-- Certificate 3 -->
+<div class="certificate-card" onclick="openCertificate('fundaments of Ai.jpeg', 'AI Certificate', 'May 2024', 'Alison')">
+    <img src="fundaments of Ai.jpeg" alt="Certificate 3" id="Certificate3" >
+    <div class="certificate-info">
+        <h3>AI Certificate</h3>
+        <p>Issued: May 2024</p>
+        <p>Organization: Alison</p>
     </div>
-  </section>
+</div>
+
+<!-- Certificate 2 -->
+<div class="certificate-card" onclick="openCertificate('dataanalytics.png', 'Data Analytics Certificate', 'March 2025', 'OneRoadMap')">
+    <img src="dataanalytics.png" alt="Certificate 2" id="Certificate2" >
+    <div class="certificate-info">
+        <h3>Data Analytics Certificate</h3>
+        <p>Issued: March 2024</p>
+        <p>Organization: OneRoadMap</p>
+    </div>
+</div>
+
+    <div class="certificate-card" onclick="openCertificate('Generative Ai batch by google.png', 'Generative Ai batch by google', 'March 2024', 'Google')">
+    <img src="Generative Ai batch by google.png" alt="Certificate 2" id="Certificate2" >
+    <div class="certificate-info">
+        <h3>Generative Ai batch by google</h3>
+        <p>Issued: March 2024</p>
+        <p>Organization: Google</p>
+    </div>
+</div>
+
+<div class="certificate-card" onclick="openCertificate('CyberJobSimulation.png', 'Data Analytics Certificate', 'March 2025', 'Deloitte')">
+    <img src="CyberJobSimulation.png" alt="Certificate 2" id="Certificate2" >
+    <div class="certificate-info">
+        <h3>Cyber Job Simulation Certificate</h3>
+        <p>Issued: March 2025</p>
+        <p>Organization: Deloitte</p>
+    </div>
+</div>
+
+          <div class="certificate-card" onclick="openCertificate('MERN_Stack.png', 'MERN_Stack Fundamentals Certificate', 'jun 2025', 'Great Learning')">
+    <img src="MERN_Stack.png" alt="Certificate 2" id="Certificate2" >
+    <div class="certificate-info">
+        <h3>MERN Stack Fundamentals Course Certificate</h3>
+        <p>Issued: jun 2025</p>
+        <p>Organization: Great Learning </p>
+    </div>
+</div>
+
+          <div class="certificate-card" onclick="openCertificate('google ai certificate.png', 'Data Analytics Certificate', 'March 2025', 'Google')">
+    <img src="google Ai Certificate.png" alt="Certificate 2" id="Certificate2" >
+    <div class="certificate-info">
+        <h3>Google Introduction to Gen Ai , Certificate</h3>
+        <p>Issued: March 2025</p>
+        <p>Organization: Google , Simpli-Learn</p>
+    </div>
+</div>
+
+           <div class="certificate-card" onclick="openCertificate('job simulation.png', 'Solution Architeture Job Simulation', 'March 2025', 'AWS , Forge')">
+    <img src="job simulation.png" alt="Certificate 2" id="Certificate2" >
+    <div class="certificate-info">
+        <h3>Solution Architecture Job Simulation</h3>
+        <p>Issued: March 2025</p>
+        <p>Organization: AWS , Forge</p>
+    </div>
+</div>
+
+
+           <div class="certificate-card" onclick="openCertificate('UI-UX certificate.jpeg', 'UI-UX Certificate', 'jun 2025', 'Alison')">
+    <img src="UI-UX certificate.jpeg" alt="Certificate 2" id="Certificate2" >
+    <div class="certificate-info">
+        <h3>UI-UX Certificate </h3>
+        <p>Issued: jun 2025</p>
+        <p>Organization: Alison</p>
+    </div>
+</div>
+
+<div class="certificate-card" onclick="openCertificate('Frontend Development-Certificate.png', 'Hackathon Certificate', 'March 2024', 'OneRoadMap')">
+    <img src="Frontend Development-Certificate.png" alt="Certificate 2" id="Certificate2" >
+    <div class="certificate-info">
+        <h3>Frontend Development-Certificate</h3>
+        <p>Issued: june 2025</p>
+        <p>Organization: OneRoadMap</p>
+    </div>
+</div>
+
+<!-- Certificate 2 -->
+<div class="certificate-card" onclick="openCertificate('hackthon.jpeg', 'Hackathon Certificate', 'March 2024', 'Tech Belagavi KLE Institute')">
+    <img src="hackthon.jpeg" alt="Certificate 2" id="Certificate2" >
+    <div class="certificate-info">
+        <h3>Hackathon Certificate</h3>
+        <p>Issued: March 2024</p>
+        <p>Organization: Tech Belagavi KLE Institute</p>
+    </div>
+</div>
+
+
+
+<!-- Fullscreen Modal -->
+<div id="certificateModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="modal-content">
+        <img id="modalImage" src="" alt="Certificate">
+        <div id="modalInfo" class="modal-info">
+            <!-- Content will be filled by JavaScript -->
+        </div>
+    </div>
+</div>
+
 
 <script src="script.js">
 
